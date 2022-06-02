@@ -1,4 +1,8 @@
 function getGrid(n) {
+  if (n > 0 && n < 3) {
+    return { rows: 1, columns: n };
+  }
+
   const dividers = [];
   for (let i = (n - 1); i > 1; i -= 1) {
     if (n % i === 0) {
