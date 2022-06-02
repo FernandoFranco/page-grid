@@ -1,0 +1,30 @@
+* {}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.pg-container {
+  width: 100vw;
+  height: 100vh;
+
+  padding: 8px;
+  box-sizing: border-box;
+
+  display: grid;
+  row-gap: 8px;
+  column-gap: 8px;
+
+  background-color: #ECEFF1;
+}
+
+.pg-item {
+  background-color: #FFF;
+  border-radius: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
