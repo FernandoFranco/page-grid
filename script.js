@@ -1,5 +1,5 @@
 function getGrid(n) {
-  if (n > 0 && n < 3) {
+  if (n > 0 && n <= 3) {
     return { rows: 1, columns: n };
   }
 
